@@ -350,7 +350,7 @@ sub move_name {
     }
     # Super glitch
     else {
-        return sprintf "Super Glitch (%02X)", $index;
+        return sprintf "SUPER GLITCH (%02X)", $index;
     }
 }
 
