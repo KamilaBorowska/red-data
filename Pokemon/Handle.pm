@@ -22,6 +22,7 @@ sub to {
     seek $self->handle, $position, 0;
 }
 
+# Reads one byte, and moves the file handle forward.
 sub byte {
     my ($self) = @_;
     return ord $self->read_bytes(1);
